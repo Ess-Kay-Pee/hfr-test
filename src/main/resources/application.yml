@@ -1,0 +1,13 @@
+server:
+  port: 2222
+spring:
+  datasource:
+    initialization-mode: always
+    password: Ufep4OW85pAxgwNdjnz
+    url: jdbc:postgresql://hfr-hpr-db.clbrltii4rgm.ap-south-1.rds.amazonaws.com:5432/hfr?currentSchema=sbx
+    username: postgres
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+    show-sql: false
